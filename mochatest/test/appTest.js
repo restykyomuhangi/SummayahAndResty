@@ -1,7 +1,8 @@
 // const assert = require('chai').assert;
 // const { describe, it } = require('mocha'); // Importing 'it' from mocha
-import { assert } from 'chai';
-import { describe, it } from 'mocha';
+
+import { assert } from 'chai'; // Imports the assert module from Chai, which provides assertion methods to compare values and assert conditions
+import { describe, it } from 'mocha'; // Imports the describe and it functions from Mocha. These functions are used to define test suites (describe) and individual tests (it).The describe function is used to group related test cases together into a test suite. It takes two parameters: a string (usually the name of the test suite) and a function that contains one or more it blocks.The it function is used to define an individual test case or specification within a describe block. It takes two parameters: a string (usually a description of what the test is checking) and a function that contains the test logic, including assertions.
 import {multiply} from '../app.js';
 
 describe ('App', function(){
