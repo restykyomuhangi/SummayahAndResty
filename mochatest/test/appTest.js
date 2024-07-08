@@ -9,16 +9,16 @@ describe ('App', function(){
         assert.equal(multiply(1, 1), 1);
     })
 
-    it('should return 0 when multiplying with 0', function() {
+    it('should return 4', function() {
         assert.equal(multiply(2, 2), 4);
     });
-    it('should return 0 when multiplying with 0', function() {
+    it('should return 9', function() {
         assert.equal(multiply(3, 3), 9);
     });
-    it('should return 0 when multiplying with 0', function() {
+    it('should return 16', function() {
         assert.equal(multiply(4, 4), 16);
     });
-    it('should return 0 when multiplying with 0', function() {
+    it('should return 23*25', function() {
         assert.equal(multiply(23, 45), 23*45);
     });
 
