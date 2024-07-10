@@ -1,5 +1,5 @@
-import fibonaccai
+import fibonacci
 
 class Testfibonacci:
-    def test_fibonnaci(self):
-        assert fibonaccai.fibonacci(1) == 1
+    def test_fibonacci(self):
+        assert fibonacci.fibonacci(1) == 1
