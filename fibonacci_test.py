@@ -7,3 +7,5 @@ class Testfibonacci:
         assert fibonacci.fibonacci(1) == 1
     def test_fibonacci3(self):
         assert fibonacci.fibonacci(2) == 1
+    def test_fibonacci3(self):
+        assert fibonacci.fibonacci(3) == 2
