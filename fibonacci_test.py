@@ -9,3 +9,5 @@ class Testfibonacci:
         assert fibonacci.fibonacci(2) == 1
     def test_fibonacci3(self):
         assert fibonacci.fibonacci(3) == 2
+    def test_fibonacci4(self):
+        assert fibonacci.fibonacci(-1) == 
